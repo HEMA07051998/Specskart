@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/xsl" href="rule.xsl"?> 
+<sunglass> 
+<s> 
+<id> 1</id>
+<image>sun1.jpg</image>  
+<price>999</price> 
+ 
+</s> 
+<s> 
+<id> 2</id>
+<image>sun2.jpg</image>  
+<price>1499</price> 
+</s> 
+<s> 
+<id> 3</id>
+<image>sun3.jpg</image>  
+<price>1000</price> 
+</s> 
+<s> 
+<id> 4</id>
+<image>sun4.jpg</image>  
+<price>899</price> 
+</s>
+<s>
+<id>5</id>
+<image>sun5.jpg</image>  
+<price>1500</price>  
+</s> 
+<s>
+<id> 6</id>
+<image>sun6.jpg</image>  
+<price>1300</price> 
+</s>
+</sunglass> 

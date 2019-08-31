@@ -1,0 +1,33 @@
+<html>
+</body>
+<form   method="POST" action="action.php" name="myForm" onsubmit="return validateForm();" >
+	   <h1>Signup</h1>
+        <br>
+         FirstName:<input type="text" name="fname" ><br>
+		 LastName:<input type="text" name="lname"><br>
+        Mobile:<input type="text" name="number" ><br>
+       
+        Email address:<input type="text" name="email" ><br>
+        Password:<input type="password" name="pswd" style="border-bottom:1px solid #aaa;" ><br><br>
+		Gender:<input type="radio" name="sex" value="male" checked >Male</input>
+                                           <input type="radio" name="sex" value="female" >Female</input><br></br>
+        Address:<input type="text" name="address" ><br>
+        <div class="dropdown">
+        <select  name="country" >
+	    <option > Choose your Country  </option>
+		<option value="India" selected>India  </option>
+		<option value="Pakistan">  Pakistan </option>
+		<option value="Sri Lanka">  Sri Lanka </option>
+		<option value="Burma"> Burma  </option>
+		<option value="Nepal"> Nepal  </option>
+		<option value="Bhutan"> Bhutan </option>
+		<option value="China"> China  </option>
+		<option value="Bangladesh">Bangladesh </option>
+		
+	     </select><br></br>
+		 
+		 </div>
+        <input type="submit"  name="register-button" value="REGISTER" style="background-color:#000000"></input>	
+        </form>
+		</body>
+		</html>
